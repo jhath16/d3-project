@@ -118,9 +118,11 @@ buttonThree.addEventListener('click', function () {
 
         image.style.height = '0';
 
+        setTimeout(function () {
             chart.resize({
                 height:510
             })
+        },500)
 
     } else {
 
