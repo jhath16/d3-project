@@ -106,6 +106,8 @@ buttonTwo.addEventListener('click', function () {
     }
 });
 
+//Toggle the size of chart display
+
 buttonThree.addEventListener('click', function () {
 
     var image = document.getElementById('image');
