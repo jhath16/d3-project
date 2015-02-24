@@ -1,0 +1,44 @@
+body {
+	background-color:#105399;
+	font-family:sans-serif;
+}
+
+#chart {
+	background:rgba(255,255,255,.55);
+	margin-bottom:20px;
+}
+
+img {
+	height:100px;
+	width:130px;
+	display:block;
+	margin:0 auto 20px auto;
+	opacity:1;
+	transition:all .5s ease;
+}
+
+.container {
+	display:flex;
+	width:45%;
+	margin:0 auto;
+	justify-content:space-between;
+}
+
+.button {
+	padding:10px 14px;
+	border:1px solid #fff;
+	color:#fff;
+	cursor:pointer;
+	font-weight:100;
+	transition:all .5s ease;
+	-webkit-transition: all .5s ease;
+}
+
+.button:hover {
+	background:white;
+	color:steelblue;
+}
+
+.c3 svg text{
+	font-size:14px;
+}

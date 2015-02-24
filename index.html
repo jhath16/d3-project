@@ -1,10 +1,23 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Thunder Stats</title>
 		<link href='main.css' rel='stylesheet' type='text/css'>
+		<link href='bower_components/c3/c3.css' rel='stylesheet' type='text/css'>
+		<link rel='icon' href="thunder-favicon.png">
 	</head>
 	<body>
-		
+		<img align='center' id='image' src="thunder-favicon.png">
+
+		<div id="chart"></div>
+		<div class='container'>
+			<div class="button">Toggle Points</div>
+			<div class="button">Toggle 2nd Chance Points</div>
+			<div class="button">Toggle Larger Chart</div>
+		</div>
+
+		<script src="bower_components/d3/d3.min.js" charset="utf-8"></script>
+		<script src="bower_components/c3/c3.min.js" charset="utf-8"></script>
+		<script src='main.js' type="text/javascript"></script>
 	</body>
 </html>
