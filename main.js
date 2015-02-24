@@ -109,7 +109,6 @@ buttonTwo.addEventListener('click', function () {
 buttonThree.addEventListener('click', function () {
 
     var image = document.getElementById('image');
-    console.log(image.style.opacity)
 
     if (image.style.opacity !== '0') {
 
@@ -122,7 +121,7 @@ buttonThree.addEventListener('click', function () {
             })
 
     } else {
-        
+
         image.style.height = '100px';
         image.style.opacity = '1';
         chart.resize({
